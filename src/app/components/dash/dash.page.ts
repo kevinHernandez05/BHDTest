@@ -5,20 +5,30 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './dash.page.html',
   styleUrls: ['./dash.page.scss'],
 })
+
 export class DashPage implements OnInit {
+
+  _sliderPerView = 1.5;
 
   slideOpt ={
     direction: 'horizontal',
-    slidesPerView: 1,
+    slidesPerView: this._sliderPerView,
     pagination: {
       el: '.swiper-pagination',
     }
   }
 
+  private pageTitle: string = "Mis Productos";
+
+
   constructor() { }
 
 
   ngOnInit() {
+  }
+
+  private getPageTitle() {
+    return this.pageTitle;
   }
 
 }

@@ -1,51 +1,66 @@
 <ion-content fullscreen>
 
-  <div class="bhd-toolbar">
-    <h3 class="bhd-title">Mis productos</h3>
+  <div class="background-app">
+    <div class="bhd-toolbar">
+      <h3 class="bhd-title">{{getPageTitle()}}</h3>
+    </div>
+
+    <ion-grid fixed>
+      <ion-row class="bhd-container-margin">
+        <ion-col size="12">
+          <ion-label class="bhd-mis-tarjetas-title">Mis tarjetas</ion-label>
+        </ion-col>
+      </ion-row>
+
+      <ion-slides [options]="slideOpt">
+        <ion-slide>
+          <app-card></app-card>
+        </ion-slide>
+        <!-- <ion-slide>
+          <ion-card>
+            <app-card></app-card>
+          </ion-card>
+        </ion-slide> -->
+      </ion-slides>
+
+      <ion-row class="bhd-container-margin">
+        <ion-col size="12">
+          <ion-label class="bhd-mis-tarjetas-title">Transacciones</ion-label>
+        </ion-col>
+      </ion-row>
+
+      <ion-row class="bhd-transaccion">
+        <ion-col size="2">
+          <div class="deb-cred-indicador">
+            <ion-icon slot="start" name="add"></ion-icon>
+          </div>
+        </ion-col>
+        <ion-col size="5">
+          <ion-label class="bhd-informacion-transaccion">Pago en tienda</ion-label
+          ><br />
+          <ion-label class="bhd-fecha-transaccion">Mes, 00</ion-label>
+        </ion-col>
+        <ion-col class="monto-transaccion-container" size="4">
+          <strong><ion-label class="monto-transaccion">RD$ 10,000</ion-label></strong>
+          <strong><ion-label class="decimal-transaccion">.00</ion-label></strong>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <div class="bhd-tabs-footer">
+      <ion-grid fixed>
+        <ion-row>
+          <ion-col class="footer-tab-icon" size="4">
+            <ion-icon class="footer-tab-button" name="apps-outline"></ion-icon>
+          </ion-col>
+          <ion-col class="footer-tab-icon" size="4">
+            <ion-icon class="footer-tab-button" name="swap-vertical-outline"></ion-icon>
+          </ion-col>
+          <ion-col class="footer-tab-icon" size="4">
+            <ion-icon class="footer-tab-button" name="settings-outline"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
   </div>
-
-  <ion-grid fixed>
-    <ion-row class="bhd-container-margin">
-      <ion-col size="12">
-        <ion-label class="bhd-mis-tarjetas-title">Mis tarjetas</ion-label>
-      </ion-col>
-    </ion-row>
-
-    <ion-slides [options]="slideOpt">
-      <ion-slide>
-        <ion-card>
-          <app-card></app-card>
-        </ion-card>
-      </ion-slide>
-      <ion-slide>
-        <ion-card>
-          <app-card></app-card>
-        </ion-card>
-      </ion-slide>
-    </ion-slides>
-
-    <ion-row class="bhd-container-margin">
-      <ion-col size="12">
-        <ion-label class="bhd-mis-tarjetas-title">Transacciones</ion-label>
-      </ion-col>
-    </ion-row>
-
-    <ion-row class="bhd-transaccion">
-      <ion-col size="2">
-        <div class="deb-cred-indicador">
-          <ion-icon slot="start" name="add"></ion-icon>
-        </div>
-      </ion-col>
-      <ion-col size="5">
-        <ion-label class="bhd-informacion-transaccion">Pago en tienda</ion-label><br/>
-        <ion-label class="bhd-fecha-transaccion">Mes, 00</ion-label>
-      </ion-col>
-      <ion-col class="monto-transaccion-container" size="4">
-          <ion-label class="monto-transaccion">RD$ 10,000</ion-label>
-          <ion-label class="decimal-transaccion">.00</ion-label>
-      </ion-col>
-    </ion-row>
-
-
-  </ion-grid>
 </ion-content>
