@@ -3,3 +3,26 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.background-app{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(245, 245, 245);
+}
+
+.bhd-toolbar {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 4px solid rgb(73, 183, 66);
+  text-align: center;
+}
+
+.bhd-title {
+  margin-top: 25px;
+  margin-bottom: 26px;
+  color: rgb(102, 102, 102);
+  font-size: 19px;
+}

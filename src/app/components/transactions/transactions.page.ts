@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TransactionsPage implements OnInit {
 
+  private pageTitle: string = "Transacciones";
+
   constructor() { }
 
+
   ngOnInit() {
+  }
+
+  private getPageTitle() {
+    return this.pageTitle;
   }
 
 }

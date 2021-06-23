@@ -1,27 +1,67 @@
-#container {
+.bhd-toolbar {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 4px solid rgb(73, 183, 66);
   text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.bhd-title {
+  margin-top: 25px;
+  margin-bottom: 26px;
+  color: rgb(102, 102, 102);
+  font-size: 19px;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
 
-  color: #8c8c8c;
 
-  margin: 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bhd-tabs-footer{
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
 }
 
-#container a {
-  text-decoration: none;
+.footer-tab-icon{
+  margin-top: 33px;
+  margin-bottom: 33px;
 }
+
+.background-app{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(245, 245, 245);
+}
+
+.footer-tab-button{
+  font-size: 24px;
+}
+
+.bhd-mis-tarjetas-title {
+  font-size: 21px;
+}
+
+

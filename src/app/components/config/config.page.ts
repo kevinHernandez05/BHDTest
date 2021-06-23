@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConfigPage implements OnInit {
 
+  private pageTitle: string = "Configuración";
+
   constructor() { }
+
 
   ngOnInit() {
   }
 
+  private getPageTitle() {
+    return this.pageTitle;
+  }
 }

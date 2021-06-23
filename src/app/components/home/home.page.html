@@ -1,20 +1,39 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content fullscreen>
+  <div class="background-app">
+    <ion-tabs>
+      <div class="bhd-tabs-footer">
+        <ion-grid fixed>
+          <ion-row>
+            <ion-col class="footer-tab-icon" size="4">
+              <ion-tab-button tab="dash">
+                <ion-icon
+                  class="footer-tab-button"
+                  name="apps-outline"
+                ></ion-icon>
+              </ion-tab-button>
+            </ion-col>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+            <ion-col class="footer-tab-icon" size="4">
+              <ion-tab-button tab="transaction">
+                <ion-icon
+                  class="footer-tab-button"
+                  name="swap-vertical-outline"
+                ></ion-icon>
+              </ion-tab-button>
+            </ion-col>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+            <ion-col class="footer-tab-icon" size="4">
+              <ion-tab-button tab="config">
+                <ion-icon
+                  class="footer-tab-button"
+                  name="settings-outline"
+                ></ion-icon>
+
+              </ion-tab-button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+    </ion-tabs>
   </div>
 </ion-content>

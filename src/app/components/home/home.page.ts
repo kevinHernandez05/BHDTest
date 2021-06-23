@@ -7,6 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  private pageTitle: string = "Inicio";
+
   constructor() {}
 
+  private getPageTitle() {
+    return this.pageTitle;
+  }
 }
