@@ -1,0 +1,51 @@
+.bhd-toolbar {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 4px solid rgb(73, 183, 66);
+  text-align: center;
+}
+
+.bhd-title {
+  margin-top: 25px;
+  margin-bottom: 26px;
+  color: rgb(102, 102, 102);
+  font-size: 19px;
+}
+
+.bhd-container-margin {
+  margin-top: 94px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.bhd-transaccion {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.bhd-informacion-transaccion {
+  font-size: 16px;
+}
+
+.bhd-fecha-transaccion {
+  font-size: 12px;
+}
+
+.deb-cred-indicador{
+ width: 40px;
+ height: 40px;
+ color: rgba(211, 18, 69, 1);
+}
+
+.monto-transaccion-container{
+  text-align: right;
+}
+
+.bhd-mis-tarjetas-title {
+  font-size: 21px;
+}
+
+
