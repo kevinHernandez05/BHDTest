@@ -24,3 +24,15 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+/* homemade css, utils.css*/
+@import "./theme/utils.scss";
+
+
+/* fonts */
+@font-face {
+  font-family: 'TrebuchetMS';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/font/TrebuchetMS.ttf');
+}

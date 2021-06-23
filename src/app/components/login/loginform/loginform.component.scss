@@ -10,7 +10,7 @@
 }
 
 .logo{
-  margin-top: 137px;
+  margin-top: 105.5px;
   margin-bottom: 88px;
 }
 
@@ -21,12 +21,13 @@
   border: 1px solid #cccccc;
   border-radius: 16px;
   margin-bottom: 24px;
+  text-indent: 24px;
 }
 
 .bhd-toggle{
   height: 26px;
   width: 48px;
-
+  --handle-width: 22px;
 }
 
 .bhd-label{
