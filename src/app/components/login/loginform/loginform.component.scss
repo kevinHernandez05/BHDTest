@@ -1,0 +1,48 @@
+.grid{
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo{
+  margin-top: 137px;
+  margin-bottom: 88px;
+}
+
+.bhd-input {
+  background: #ffffff;
+  opacity: 0.6;
+  height: 56px;
+  border: 1px solid #cccccc;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+
+.bhd-toggle{
+  height: 26px;
+  width: 48px;
+
+}
+
+.bhd-label{
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+.bhd-button{
+  height: 56px;
+  border-radius: 16px;
+}
+
+.bhd-input::placeholder{
+  margin-left: 10px;
+}
+
+.bhd-botton-spacing{
+  margin-bottom: 24px;
+}
