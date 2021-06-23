@@ -26,3 +26,21 @@
   color: rgb(102, 102, 102);
   font-size: 19px;
 }
+
+.bhd-button-red-outline{
+  width: 100%;
+  height: 56px;
+  border-radius: 16px;
+  border: 1px solid rgb(211, 18, 69);
+  background-color: rgb(245, 245, 245);
+}
+
+.bhd-button-red-outline span{
+  font-size: 16px;
+  color: rgb(211, 18, 69);
+}
+
+.default-padding-bhd-button{
+  padding-left: 32px;
+  padding-right: 32px;
+}
