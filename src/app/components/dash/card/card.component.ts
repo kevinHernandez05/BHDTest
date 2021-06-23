@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card.component.scss'],
 })
 export class CardComponent implements OnInit {
-  slideOpts = {
-    initialSlide: 1,
-    speed: 400
-  };
+  _sliderPerView = 1.5;
+
+  slideOpt ={
+    direction: 'horizontal',
+    slidesPerView: this._sliderPerView,
+    pagination: {
+      el: '.swiper-pagination',
+    }
+  }
+
   constructor() { }
 
   ngOnInit() {}

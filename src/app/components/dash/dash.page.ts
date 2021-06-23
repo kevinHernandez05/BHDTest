@@ -8,18 +8,7 @@ import { Component, OnInit } from '@angular/core';
 
 export class DashPage implements OnInit {
 
-  _sliderPerView = 1.5;
-
-  slideOpt ={
-    direction: 'horizontal',
-    slidesPerView: this._sliderPerView,
-    pagination: {
-      el: '.swiper-pagination',
-    }
-  }
-
   private pageTitle: string = "Mis Productos";
-
 
   constructor() { }
 
