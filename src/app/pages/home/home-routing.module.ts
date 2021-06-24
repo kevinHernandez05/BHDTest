@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomePage } from './home.page';
 
 const routes: Routes = [
+
   {
     path: '',
     component: HomePage,
@@ -25,12 +26,12 @@ const routes: Routes = [
       },
       {
         path: '',
-        redirectTo: 'home/dash',
+        redirectTo: '/home/dash',
         pathMatch: 'full',
       },
       {
         path: 'home',
-        redirectTo: 'home/dash',
+        redirectTo: '/home/dash',
         pathMatch: 'full',
       },
     ],
