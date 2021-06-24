@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthService } from 'src/app/service/auth.service';
 
 @Component({
   selector: 'app-config',
@@ -9,7 +10,7 @@ export class ConfigPage implements OnInit {
 
   private pageTitle: string = "Configuración";
 
-  constructor() { }
+  constructor(private auth: AuthService) { }
 
 
   ngOnInit() {
@@ -17,5 +18,9 @@ export class ConfigPage implements OnInit {
 
   private getPageTitle() {
     return this.pageTitle;
+  }
+
+  logout(){
+    this.auth.logout();
   }
 }
