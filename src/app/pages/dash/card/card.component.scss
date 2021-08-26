@@ -2,7 +2,9 @@
   width: 192px;
   height: 270px;
   border-radius: 24px;
-  background-color:rgb(73, 183, 66);
+  background-image:
+  radial-gradient(circle farthest-corner at 150px 40px, rgb(73,183,66) 0%, rgb(97,192,90) 70%, rgb(73,183,66) 70%);
+
 }
 
 .card-number{
